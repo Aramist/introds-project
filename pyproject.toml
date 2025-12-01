@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Comparing the similarity between pseudo-second-order optimization methods and true second-order updates computed via Newton's Method."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["jax", "flax", "optax", "numpy", "matplotlib", "tqdm", "torch"]
+dependencies = [
+    "jax",
+    "flax",
+    "optax",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "torch",
+    "jupyter>=1.1.1",
+    "ipykernel>=7.1.0",
+    "torchvision>=0.24.1",
+]
